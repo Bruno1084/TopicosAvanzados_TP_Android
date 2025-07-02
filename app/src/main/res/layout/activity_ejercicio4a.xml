@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".Ejercicio4a.Ejercicio4aActivity"
+    android:fitsSystemWindows="true">
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información de la App"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGenres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Géneros"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Ofertas Realizadas"/>
+
+</LinearLayout>

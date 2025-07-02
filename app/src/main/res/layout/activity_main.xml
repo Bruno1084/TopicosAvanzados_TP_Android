@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Lista de ejercicios"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ejercicio 1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ejercicio 2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ejercicio 3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEj4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ejercicio 4.a"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
